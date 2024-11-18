@@ -1,0 +1,26 @@
+{
+  "name": "balance-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/balance-service/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "dependsOn": ["build"],
+      "options": {
+        "buildTarget": "balance-service:build",
+        "runBuildTargetDependencies": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "balance-service:build:development"
+        },
+        "production": {
+          "buildTarget": "balance-service:build:production"
+        }
+      }
+    }
+  }
+}

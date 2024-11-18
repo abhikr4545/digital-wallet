@@ -1,0 +1,100 @@
+{"level":"error","message":"Failed to transfer funds: colors[Colorizer.allColors[lookup]] is not a function","service":"wallet-service"}
+{"level":"info","message":"Transfer initiated: 2oRMWzhKD9QDD4UBp5J8071J4KR","service":"wallet-service"}
+{"level":"info","message":"Transfer status updated: 2oRMWzhKD9QDD4UBp5J8071J4KR","service":"wallet-service"}
+{"level":"info","message":"Transfer initiated: 2oRMfn0qNuGvvi3zZvWln7qDruT","service":"wallet-service"}
+{"level":"info","message":"Transfer status updated: 2oRMfn0qNuGvvi3zZvWln7qDruT","service":"wallet-service"}
+{"level":"info","message":"Transfer initiated: 2oRNUP6QbwFcETlTZMf1aphP32g","timestamp":"2024-11-05T17:40:42.838Z"}
+{"level":"info","message":"Transfer status updated: 2oRNUP6QbwFcETlTZMf1aphP32g","timestamp":"2024-11-05T17:40:47.019Z"}
+{"level":"info","message":"Transfer initiated: 2oROKHB0Admc2oKCA9lrbVmLZV3","timestamp":"2024-11-05T17:47:35.233Z"}
+{"level":"info","message":"Transfer status updated: 2oROKHB0Admc2oKCA9lrbVmLZV3","timestamp":"2024-11-05T17:47:37.327Z"}
+{"level":"info","message":"Transfer initiated: 2oROYZNdheZTR94PIH3ZKfqA6FQ","timestamp":"2024-11-05T17:49:29.216Z"}
+{"level":"info","message":"Transfer status updated: 2oROYZNdheZTR94PIH3ZKfqA6FQ","timestamp":"2024-11-05T17:49:32.410Z"}
+{"level":"info","message":"Transfer initiated: 2oROlCxJyeeGalEehm19JrJsuvk","timestamp":"2024-11-05T17:51:10.221Z"}
+{"level":"info","message":"Transfer status updated: 2oROlCxJyeeGalEehm19JrJsuvk","timestamp":"2024-11-05T17:51:12.478Z"}
+{"level":"info","message":"Transfer initiated: 2oRYcqIX0WuZvq5w2eQxQPS1vUG","timestamp":"2024-11-05T19:12:17.438Z"}
+{"level":"info","message":"Transfer status updated: 2oRYcqIX0WuZvq5w2eQxQPS1vUG","timestamp":"2024-11-05T19:12:18.813Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2024-11-05T19:17:26.961Z"}
+{"context":"InstanceLoader","level":"info","message":"ClientsModule dependencies initialized","timestamp":"2024-11-05T19:17:26.972Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2024-11-05T19:17:26.972Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2024-11-05T19:17:26.972Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2024-11-05T19:17:26.972Z"}
+{"context":"InstanceLoader","level":"info","message":"WinstonModule dependencies initialized","timestamp":"2024-11-05T19:17:26.973Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2024-11-05T19:17:26.973Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2024-11-05T19:17:26.973Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2024-11-05T19:17:27.050Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2024-11-05T19:17:27.051Z"}
+{"context":"InstanceLoader","level":"info","message":"WalletModule dependencies initialized","timestamp":"2024-11-05T19:17:27.051Z"}
+{"context":"RoutesResolver","level":"info","message":"WalletController {/api/wallet}:","timestamp":"2024-11-05T19:17:27.055Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/wallet/transfer, POST} route","timestamp":"2024-11-05T19:17:27.056Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2024-11-05T19:17:27.057Z"}
+{"context":"ServerKafka","level":"warn","message":"WARN [undefined] KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\" {\"timestamp\":\"2024-11-05T19:17:27.059Z\",\"logger\":\"kafkajs\"}","timestamp":"2024-11-05T19:17:27.059Z"}
+{"context":"ServerKafka","level":"info","message":"INFO [Consumer] Starting {\"timestamp\":\"2024-11-05T19:17:27.078Z\",\"logger\":\"kafkajs\",\"groupId\":\"wallet-service-consumer-group-server\"}","timestamp":"2024-11-05T19:17:27.078Z"}
+{"context":"ServerKafka","level":"info","message":"INFO [ConsumerGroup] Consumer has joined the group {\"timestamp\":\"2024-11-05T19:17:49.186Z\",\"logger\":\"kafkajs\",\"groupId\":\"wallet-service-consumer-group-server\",\"memberId\":\"wallet-service-kafka-id-server-4479f688-e54f-43d4-a279-db10159b04c2\",\"leaderId\":\"wallet-service-kafka-id-server-4479f688-e54f-43d4-a279-db10159b04c2\",\"isLeader\":true,\"memberAssignment\":{\"fund.transafer.complete\":[0]},\"groupProtocol\":\"RoundRobinAssigner\",\"duration\":22107}","timestamp":"2024-11-05T19:17:49.186Z"}
+{"context":"NestMicroservice","level":"info","message":"Nest microservice successfully started","timestamp":"2024-11-05T19:17:49.188Z"}
+{"level":"info","message":"🚀 Application is running on: http://localhost:3000/api","timestamp":"2024-11-05T19:17:49.194Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2024-11-05T19:24:07.657Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2024-11-05T19:24:07.668Z"}
+{"context":"InstanceLoader","level":"info","message":"ClientsModule dependencies initialized","timestamp":"2024-11-05T19:24:07.669Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2024-11-05T19:24:07.669Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2024-11-05T19:24:07.669Z"}
+{"context":"InstanceLoader","level":"info","message":"WinstonModule dependencies initialized","timestamp":"2024-11-05T19:24:07.670Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2024-11-05T19:24:07.670Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2024-11-05T19:24:07.670Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2024-11-05T19:24:07.750Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2024-11-05T19:24:07.750Z"}
+{"context":"InstanceLoader","level":"info","message":"WalletModule dependencies initialized","timestamp":"2024-11-05T19:24:07.751Z"}
+{"context":"RoutesResolver","level":"info","message":"WalletController {/api/wallet}:","timestamp":"2024-11-05T19:24:07.755Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/wallet/transfer, POST} route","timestamp":"2024-11-05T19:24:07.756Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2024-11-05T19:24:07.757Z"}
+{"context":"ServerKafka","level":"warn","message":"WARN [undefined] KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\" {\"timestamp\":\"2024-11-05T19:24:07.759Z\",\"logger\":\"kafkajs\"}","timestamp":"2024-11-05T19:24:07.759Z"}
+{"context":"ServerKafka","level":"info","message":"INFO [Consumer] Starting {\"timestamp\":\"2024-11-05T19:24:07.778Z\",\"logger\":\"kafkajs\",\"groupId\":\"wallet-service-consumer-group-server\"}","timestamp":"2024-11-05T19:24:07.778Z"}
+{"context":"ServerKafka","level":"info","message":"INFO [ConsumerGroup] Consumer has joined the group {\"timestamp\":\"2024-11-05T19:24:07.794Z\",\"logger\":\"kafkajs\",\"groupId\":\"wallet-service-consumer-group-server\",\"memberId\":\"wallet-service-kafka-id-server-a48229b1-0964-45ed-90d5-12e34375edbf\",\"leaderId\":\"wallet-service-kafka-id-server-a48229b1-0964-45ed-90d5-12e34375edbf\",\"isLeader\":true,\"memberAssignment\":{\"fund.transafer.complete\":[0]},\"groupProtocol\":\"RoundRobinAssigner\",\"duration\":15}","timestamp":"2024-11-05T19:24:07.794Z"}
+{"context":"NestMicroservice","level":"info","message":"Nest microservice successfully started","timestamp":"2024-11-05T19:24:07.795Z"}
+{"level":"info","message":"🚀 Application is running on: http://localhost:3000/api","timestamp":"2024-11-05T19:24:07.796Z"}
+{"level":"info","message":"Transfer initiated: 2oRa9DhWrDoL2FDWAfouxZGZKgv","timestamp":"2024-11-05T19:24:48.220Z"}
+{"level":"info","message":"Transfer status updated: 2oRa9DhWrDoL2FDWAfouxZGZKgv","timestamp":"2024-11-05T19:24:49.237Z"}
+{"level":"info","message":"Transfer initiated: 2oRahSAVp4x4CxFKmZA1YMOT7oM","timestamp":"2024-11-05T19:29:20.766Z"}
+{"level":"info","message":"Transfer status updated: 2oRahSAVp4x4CxFKmZA1YMOT7oM","timestamp":"2024-11-05T19:29:24.413Z"}
+{"level":"info","message":"Transfer initiated: 2oRdMDReLEn1VCl3m7SHAQ7OIAx","timestamp":"2024-11-05T19:51:11.894Z"}
+{"level":"warn","message":"[object Object]","timestamp":"2024-11-05T19:51:11.895Z"}
+{"level":"info","message":"Transfer status updated: 2oRdMDReLEn1VCl3m7SHAQ7OIAx","timestamp":"2024-11-05T19:51:12.513Z"}
+{"level":"info","message":"Transfer initiated: 2oSxrOUyL4wqKd1Xlh6ced4yAmD","timestamp":"2024-11-06T07:09:35.092Z"}
+{"level":"info","metadata":{"timestamp":"2024-11-06T07:09:35.093Z"},"timestamp":"2024-11-06T07:09:35.093Z"}
+{"level":"info","message":"Transfer status updated: 2oSxrOUyL4wqKd1Xlh6ced4yAmD","timestamp":"2024-11-06T07:09:50.210Z"}
+{"level":"info","message":"Transfer initiated: 2oSyHqcF5glz2zUeKWTzjezZU1Z","timestamp":"2024-11-06T07:13:06.093Z"}
+{"details":{"amount":"30","currency":"INR","receiverId":"2nzHxoW12YZCx0estbxVYZdLy6y","senderId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","transferId":"2oSyHqcF5glz2zUeKWTzjezZU1Z"},"level":"info","timestamp":"2024-11-06T07:13:06.094Z"}
+{"level":"info","message":"Transfer status updated: 2oSyHqcF5glz2zUeKWTzjezZU1Z","timestamp":"2024-11-06T07:13:10.412Z"}
+{"level":"info","message":"Transfer initiated: 2oU6dYQfQqlMzXiysc51KYF1ycC","timestamp":"2024-11-06T16:51:35.011Z"}
+{"details":{"amount":"30","currency":"INR","receiverId":"2nzHxoW12YZCx0estbxVYZdLy6y","senderId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","transferId":"2oU6dYQfQqlMzXiysc51KYF1ycC"},"level":"info","timestamp":"2024-11-06T16:51:35.014Z"}
+{"level":"info","message":"Transfer status updated: 2oU6dYQfQqlMzXiysc51KYF1ycC","timestamp":"2024-11-06T16:51:38.735Z"}
+{"details":{"amount":"30","currency":"INR","receiverId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","senderId":"2nzHxoW12YZCx0estbxVYZdLy6y","transferId":"2oU750s5SzjrcFoeGfJg03i49OY"},"level":"info","timestamp":"2024-11-06T16:55:13.308Z"}
+{"level":"info","message":"Transfer status updated: 2oU750s5SzjrcFoeGfJg03i49OY","timestamp":"2024-11-06T16:55:13.881Z"}
+{"details":{"amount":"10","currency":"INR","receiverId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","senderId":"2nzHxoW12YZCx0estbxVYZdLy6y","transferId":"2oUCGnHzJso7nMkPiuIfYtUjUhw"},"level":"info","timestamp":"2024-11-06T17:37:53.828Z"}
+{"level":"info","message":"Debit transaction success.","timestamp":"2024-11-06T17:37:53.875Z","transferId":"2oUCGnHzJso7nMkPiuIfYtUjUhw"}
+{"level":"info","message":"Credit transaction success.","timestamp":"2024-11-06T17:37:53.880Z","transferId":"2oUCGnHzJso7nMkPiuIfYtUjUhw"}
+{"level":"info","message":"Transfer status updated: 2oUCGnHzJso7nMkPiuIfYtUjUhw","timestamp":"2024-11-06T17:37:56.182Z"}
+{"details":{"amount":"10","currency":"INR","receiverId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","senderId":"2nzHxoW12YZCx0estbxVYZdLy6y","transferId":"2oUCZbYIw9VcPCdWepYI5q7EW1i"},"level":"info","timestamp":"2024-11-06T17:40:23.413Z"}
+{"level":"info","message":"Debit transaction success.","timestamp":"2024-11-06T17:40:23.452Z","transferId":"2oUCZbYIw9VcPCdWepYI5q7EW1i"}
+{"level":"info","message":"Credit transaction success.","timestamp":"2024-11-06T17:40:23.456Z","transferId":"2oUCZbYIw9VcPCdWepYI5q7EW1i"}
+{"amount":"10","counterparty":"2oFQCNJZteaD7i03Ci8vQOBZ01z","level":"info","message":"Balance update success for transfer id 2oUCZbYIw9VcPCdWepYI5q7EW1i","timestamp":"2024-11-06T17:40:23.458Z","transferId":"2oUCZbYIw9VcPCdWepYI5q7EW1i","userId":"2nzHxoW12YZCx0estbxVYZdLy6y"}
+{"level":"info","message":"Transfer status updated: 2oUCZbYIw9VcPCdWepYI5q7EW1i","timestamp":"2024-11-06T17:40:26.267Z"}
+{"details":{"amount":"10","currency":"INR","receiverId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","senderId":"2nzHxoW12YZCx0estbxVYZdLy6y","transferId":"2oUTOJ0GLmTUesyzr44GZWLmV9l"},"level":"info","timestamp":"2024-11-06T19:58:40.828Z"}
+{"level":"info","message":"Balance update initiated.","timestamp":"2024-11-06T19:58:45.419Z"}
+{"level":"info","message":"Debit transaction success.","timestamp":"2024-11-06T19:58:50.437Z","transferId":"2oUTOJ0GLmTUesyzr44GZWLmV9l"}
+{"level":"info","message":"Credit transaction success.","timestamp":"2024-11-06T19:58:50.439Z","transferId":"2oUTOJ0GLmTUesyzr44GZWLmV9l"}
+{"amount":"10","counterparty":"2oFQCNJZteaD7i03Ci8vQOBZ01z","level":"info","message":"Balance update success for transfer id 2oUTOJ0GLmTUesyzr44GZWLmV9l","timestamp":"2024-11-06T19:58:50.442Z","transferId":"2oUTOJ0GLmTUesyzr44GZWLmV9l","userId":"2nzHxoW12YZCx0estbxVYZdLy6y"}
+{"level":"info","message":"Balance update initiated.","timestamp":"2024-11-06T19:58:50.448Z"}
+{"amount":"10","counterparty":"2oFQCNJZteaD7i03Ci8vQOBZ01z","level":"info","message":"Debit record completed.","timestamp":"2024-11-06T19:58:50.463Z","transactionId":"2oUTPZIaO73RyzWDRc1kLjDbgo8","transactionType":"debit","transferId":"2oUTOJ0GLmTUesyzr44GZWLmV9l","userId":"2nzHxoW12YZCx0estbxVYZdLy6y"}
+{"amount":"10","counterparty":"2nzHxoW12YZCx0estbxVYZdLy6y","level":"info","message":"Credit record completed.","timestamp":"2024-11-06T19:58:50.467Z","transactionId":"2oUTPTYrnnNvIdxyCJPEEfU9vtn","transactionType":"credit","transferId":"2oUTOJ0GLmTUesyzr44GZWLmV9l","userId":"2oFQCNJZteaD7i03Ci8vQOBZ01z"}
+{"level":"info","message":"Transfer status updated: 2oUTOJ0GLmTUesyzr44GZWLmV9l","timestamp":"2024-11-06T19:58:55.448Z"}
+{"body":{"amount":"10","currency":"INR","receiverId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","senderId":"2nzHxoW12YZCx0estbxVYZdLy6y"},"clientIp":"::1","headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"133","content-type":"application/json","host":"localhost:3000","postman-token":"27182433-b965-4d40-ad7d-37e3beb73538","user-agent":"PostmanRuntime/7.42.0"},"level":"info","method":"POST","queryParams":{},"timestamp":"2024-11-06T20:03:51.401Z","url":"/api/wallet/transfer"}
+{"level":"info","message":"Outgoing response","method":"POST","responseTime":"5ms","statusCode":201,"timestamp":"2024-11-06T20:03:51.405Z","url":"/api/wallet/transfer"}
+{"details":{"amount":"10","currency":"INR","receiverId":"2oFQCNJZteaD7i03Ci8vQOBZ01z","senderId":"2nzHxoW12YZCx0estbxVYZdLy6y","transferId":"2oUU1IfX8r4hSeI6GzDVPso9Jqn"},"level":"info","timestamp":"2024-11-06T20:03:51.427Z"}
+{"level":"info","message":"Balance update initiated.","timestamp":"2024-11-06T20:03:55.588Z"}
+{"level":"info","message":"Debit transaction success.","timestamp":"2024-11-06T20:03:55.607Z","transferId":"2oUU1IfX8r4hSeI6GzDVPso9Jqn"}
+{"level":"info","message":"Credit transaction success.","timestamp":"2024-11-06T20:03:55.610Z","transferId":"2oUU1IfX8r4hSeI6GzDVPso9Jqn"}
+{"amount":"10","counterparty":"2oFQCNJZteaD7i03Ci8vQOBZ01z","level":"info","message":"Balance update success for transfer id 2oUU1IfX8r4hSeI6GzDVPso9Jqn","timestamp":"2024-11-06T20:03:55.611Z","transferId":"2oUU1IfX8r4hSeI6GzDVPso9Jqn","userId":"2nzHxoW12YZCx0estbxVYZdLy6y"}
+{"level":"info","message":"Balance update initiated.","timestamp":"2024-11-06T20:03:55.616Z"}
+{"amount":"10","counterparty":"2oFQCNJZteaD7i03Ci8vQOBZ01z","level":"info","message":"Debit record completed.","timestamp":"2024-11-06T20:03:55.621Z","transactionId":"2oUU1rdZ9ScJmaHx4WYMnSrMT17","transactionType":"debit","transferId":"2oUU1IfX8r4hSeI6GzDVPso9Jqn","userId":"2nzHxoW12YZCx0estbxVYZdLy6y"}
+{"amount":"10","counterparty":"2nzHxoW12YZCx0estbxVYZdLy6y","level":"info","message":"Credit record completed.","timestamp":"2024-11-06T20:03:55.622Z","transactionId":"2oUU1oBynj2M7nIVJ13wh7OLd3S","transactionType":"credit","transferId":"2oUU1IfX8r4hSeI6GzDVPso9Jqn","userId":"2oFQCNJZteaD7i03Ci8vQOBZ01z"}
+{"level":"info","message":"Transfer status updated: 2oUU1IfX8r4hSeI6GzDVPso9Jqn","timestamp":"2024-11-06T20:03:55.633Z"}

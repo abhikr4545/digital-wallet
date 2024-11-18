@@ -33,7 +33,7 @@ This project is a comprehensive microservices-based financial platform built usi
 - Kafka Message Broker
 
 ### Database
-- [Specify your database, e.g., PostgreSQL, MongoDB]
+- PostgreSQL
 
 ### Infrastructure
 - Apache Kafka
